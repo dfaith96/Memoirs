@@ -6,7 +6,7 @@ if (form && note) {
     event.preventDefault();
     const data = new FormData(form);
     const name = data.get("name") || "there";
-    note.textContent = `Thanks, ${name}. Memoirs will follow up about your care journey automation needs.`;
+    note.textContent = `Thanks, ${name}. Memoirz will follow up about your care journey automation needs.`;
     form.reset();
   });
 }
